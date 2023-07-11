@@ -1,0 +1,14 @@
+{
+  "name": "nreactdev",
+  "version": "1.0.0",
+  "description": "this app is iginition of react",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Sobit Prasad",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
