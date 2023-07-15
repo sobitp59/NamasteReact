@@ -2,13 +2,24 @@
   "name": "nreactdev",
   "version": "1.0.0",
   "description": "this app is iginition of react",
-  "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start" : "parcel index.html --port 3000",
+    "build" : "parcel build index.html"
   },
   "author": "Sobit Prasad",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.9.3"
-  }
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 1 version",
+    "last 2 Chrome versions",
+    "last 2 major versions"
+  ]
 }
